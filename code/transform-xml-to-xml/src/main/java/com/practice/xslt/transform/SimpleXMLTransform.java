@@ -14,9 +14,8 @@ public class SimpleXMLTransform {
      * @param args
      */
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
-        String inXML = "D:\\MyPractice\\XsltPractice\\XsltPractice\\code\\transform-xml-to-xml\\src\\main\\resources\\catalog.xml";
-        String inXSL = "D:\\MyPractice\\XsltPractice\\XsltPractice\\code\\transform-xml-to-xml\\src\\main\\resources\\transform-catalog.xsl";
+        String inXML = "code/transform-xml-to-xml/src/main/resources/catalog.xml";
+        String inXSL = "code/transform-xml-to-xml/src/main/resources/transform-catalog.xsl";
         String outTXT = "code/transform-xml-to-xml/output.xml";
         SimpleXMLTransform st = new SimpleXMLTransform();
         try {
