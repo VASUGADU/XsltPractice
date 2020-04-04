@@ -10,6 +10,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>code/transform-xml-to-xml</module>
+        <module>metadata-to-keycomponents</module>
+        <module>code/metadata-to-keycomponents</module>
     </modules>
 
 </project>

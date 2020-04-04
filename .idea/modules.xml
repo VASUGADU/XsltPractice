@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/XsltPractice.iml" filepath="$PROJECT_DIR$/.idea/XsltPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code/metadata-to-keycomponents/metadata-to-keycomponents.iml" filepath="$PROJECT_DIR$/code/metadata-to-keycomponents/metadata-to-keycomponents.iml" />
       <module fileurl="file://$PROJECT_DIR$/code/transform-xml-to-xml/transform-xml-to-xml.iml" filepath="$PROJECT_DIR$/code/transform-xml-to-xml/transform-xml-to-xml.iml" />
     </modules>
   </component>

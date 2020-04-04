@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="metadata-to-keycomponents" />
         <module name="transform-xml-to-xml" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="metadata-to-keycomponents" target="1.5" />
       <module name="transform-xml-to-xml" target="1.5" />
       <module name="XsltPractice" target="1.5" />
     </bytecodeTargetLevel>

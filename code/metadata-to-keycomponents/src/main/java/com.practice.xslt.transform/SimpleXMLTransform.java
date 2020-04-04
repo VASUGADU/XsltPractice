@@ -13,12 +13,12 @@ public class SimpleXMLTransform {
      * @param args
      */
     public static void main(String[] args) {
-        String inXML = "code/transform-xml-to-xml/src/main/resources/catalog.xml";
-        String inXSL = "code/transform-xml-to-xml/src/main/resources/transform-catalog.xsl";
-        String outTXT = "code/transform-xml-to-xml/output.xml";
+        String inXML = "code/metadata-to-keycomponents/src/main/resources/metadata.xml";
+        String inXSL = "code/metadata-to-keycomponents/src/main/resources/transform-metadata.xsl";
+        String outXML = "code/metadata-to-keycomponents/output.xml";
         SimpleXMLTransform st = new SimpleXMLTransform();
         try {
-            st.transform(inXML,inXSL,outTXT);
+            st.transform(inXML,inXSL,outXML);
         } catch(TransformerConfigurationException e) {
             System.err.println("Invalid factory configuration");
             System.err.println(e);
@@ -41,6 +41,7 @@ public class SimpleXMLTransform {
 
     }
 }
+
 class MyErrorListener implements ErrorListener {
     public void warning(TransformerException e)
             throws TransformerException {
